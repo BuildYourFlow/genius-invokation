@@ -1,0 +1,1005 @@
+{
+  "purpose": "Held-out mirror-deck resource vs greedy comparison; no tuning",
+  "rows": [
+    {
+      "game": 0,
+      "seed": 910000,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 1,
+      "seed": 910001,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 2,
+      "seed": 910002,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 3,
+      "seed": 910003,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 4,
+      "seed": 910004,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 5,
+      "seed": 910005,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 6,
+      "seed": 910006,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 7,
+      "seed": 910007,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 8,
+      "seed": 910008,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 9,
+      "seed": 910009,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 10,
+      "seed": 910010,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 11,
+      "seed": 910011,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 12,
+      "seed": 910012,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 3
+    },
+    {
+      "game": 13,
+      "seed": 910013,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 14,
+      "seed": 910014,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 15,
+      "seed": 910015,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 16,
+      "seed": 910016,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 17,
+      "seed": 910017,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 18,
+      "seed": 910018,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 19,
+      "seed": 910019,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 20,
+      "seed": 910020,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 21,
+      "seed": 910021,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 22,
+      "seed": 910022,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 23,
+      "seed": 910023,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 24,
+      "seed": 910024,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 25,
+      "seed": 910025,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 26,
+      "seed": 910026,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 27,
+      "seed": 910027,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 28,
+      "seed": 910028,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 29,
+      "seed": 910029,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 30,
+      "seed": 910030,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 31,
+      "seed": 910031,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 32,
+      "seed": 910032,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 33,
+      "seed": 910033,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 34,
+      "seed": 910034,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 35,
+      "seed": 910035,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 36,
+      "seed": 910036,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 37,
+      "seed": 910037,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 38,
+      "seed": 910038,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 39,
+      "seed": 910039,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 40,
+      "seed": 910040,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 41,
+      "seed": 910041,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 42,
+      "seed": 910042,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 43,
+      "seed": 910043,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 44,
+      "seed": 910044,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 45,
+      "seed": 910045,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 46,
+      "seed": 910046,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 47,
+      "seed": 910047,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 48,
+      "seed": 910048,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 49,
+      "seed": 910049,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 50,
+      "seed": 910050,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 51,
+      "seed": 910051,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 52,
+      "seed": 910052,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 53,
+      "seed": 910053,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 54,
+      "seed": 910054,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 55,
+      "seed": 910055,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 7
+    },
+    {
+      "game": 56,
+      "seed": 910056,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 57,
+      "seed": 910057,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 58,
+      "seed": 910058,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 59,
+      "seed": 910059,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 60,
+      "seed": 910060,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 61,
+      "seed": 910061,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 62,
+      "seed": 910062,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 63,
+      "seed": 910063,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 64,
+      "seed": 910064,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 65,
+      "seed": 910065,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 66,
+      "seed": 910066,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 67,
+      "seed": 910067,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 68,
+      "seed": 910068,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 69,
+      "seed": 910069,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 70,
+      "seed": 910070,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 71,
+      "seed": 910071,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 72,
+      "seed": 910072,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 73,
+      "seed": 910073,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 7
+    },
+    {
+      "game": 74,
+      "seed": 910074,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 3
+    },
+    {
+      "game": 75,
+      "seed": 910075,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 76,
+      "seed": 910076,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 77,
+      "seed": 910077,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 78,
+      "seed": 910078,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 79,
+      "seed": 910079,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 80,
+      "seed": 910080,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 81,
+      "seed": 910081,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 82,
+      "seed": 910082,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 83,
+      "seed": 910083,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 84,
+      "seed": 910084,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 85,
+      "seed": 910085,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 86,
+      "seed": 910086,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 87,
+      "seed": 910087,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 88,
+      "seed": 910088,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 89,
+      "seed": 910089,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 90,
+      "seed": 910090,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 91,
+      "seed": 910091,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 92,
+      "seed": 910092,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 93,
+      "seed": 910093,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 94,
+      "seed": 910094,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 95,
+      "seed": 910095,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 4
+    },
+    {
+      "game": 96,
+      "seed": 910096,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 1,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 5
+    },
+    {
+      "game": 97,
+      "seed": 910097,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 0,
+      "resourceWin": false,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 98,
+      "seed": 910098,
+      "deckIndex": 0,
+      "resourceSeat": 0,
+      "winnerSeat": 0,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 6
+    },
+    {
+      "game": 99,
+      "seed": 910099,
+      "deckIndex": 0,
+      "resourceSeat": 1,
+      "winnerSeat": 1,
+      "resourceWin": true,
+      "technicalError": null,
+      "round": 7
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-12T08:55:09.015Z",
+  "repository": "BuildYourFlow/genius-invokation",
+  "originalEngineCommit": "4aac4f4673edc836ae88fc19ed52b1881c400d31",
+  "runnerCommit": "daffe4144c7060cab136fbd0b9238a3931a901ba",
+  "node": "v24.20.0",
+  "platform": "win32",
+  "architecture": "x64",
+  "initialFailureRun": 34683327214,
+  "fixedLegacySmokeRun": 34683790407,
+  "originalArtifactId": 10294352939,
+  "originalError": "Requested to-be-rerolled dice 0 does not exists",
+  "engineSourceDiff": ""
+}

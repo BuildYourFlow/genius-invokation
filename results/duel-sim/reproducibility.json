@@ -1,0 +1,12 @@
+{
+  "games": 20,
+  "matched": true,
+  "excludedFields": [
+    "durationMs"
+  ],
+  "fields": "all raw row fields except durationMs",
+  "hashes": {
+    "run.mjs": "48a501ebbebb6d83c40a6d16c9c525fc7ca3d3a42ef219528b2d47ce41d4cf36",
+    "policy.mjs": "75ec2714fa0edd075eaaec1625b058a1604b414fd42b9c0efb070de75937b70f"
+  }
+}

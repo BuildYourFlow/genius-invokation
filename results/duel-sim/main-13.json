@@ -1,0 +1,3453 @@
+{
+  "experiment": "main-13",
+  "policy": "greedy",
+  "hashes": {
+    "run.mjs": "48a501ebbebb6d83c40a6d16c9c525fc7ca3d3a42ef219528b2d47ce41d4cf36",
+    "policy.mjs": "75ec2714fa0edd075eaaec1625b058a1604b414fd42b9c0efb070de75937b70f"
+  },
+  "nodeVersion": "v24.20.0",
+  "baseSeed": 710000,
+  "offset": 1300,
+  "version": "v7.0.0",
+  "coreVersion": "0.20.8",
+  "requestedGames": 100,
+  "completedValidGames": 100,
+  "technicalErrors": 0,
+  "deckAudit": [
+    {
+      "deck": 0,
+      "code": "AoBi6AsPJSBi8mkPJkCS9A4TCbFwO5cdCrFA26QgEzIxBjMgDWLialsmDqFw1OcdDkAA",
+      "characters": [
+        1503,
+        2206,
+        2504
+      ],
+      "cards": [
+        215032,
+        215032,
+        222061,
+        312004,
+        312004,
+        312017,
+        312017,
+        312021,
+        312021,
+        330005,
+        331010,
+        331501,
+        331501,
+        331502,
+        331502,
+        332002,
+        332002,
+        332004,
+        332004,
+        332025,
+        332025,
+        332045,
+        332045,
+        332051,
+        332054,
+        332054,
+        332065,
+        332065,
+        333020,
+        333020
+      ],
+      "characterCount": 3,
+      "cardCount": 30
+    },
+    {
+      "deck": 1,
+      "code": "FbAA6xwOA8DA7JcPCUBw9KQPE1Ax9jMPFWFxCFcTG7GRO7kZDVGQ29kdJbEi1FwdDkAA",
+      "characters": [
+        1707,
+        1403,
+        2701
+      ],
+      "cards": [
+        312004,
+        312004,
+        312017,
+        312021,
+        312021,
+        312025,
+        312025,
+        321024,
+        321024,
+        323004,
+        323004,
+        330013,
+        331011,
+        331701,
+        331701,
+        331702,
+        331702,
+        332004,
+        332004,
+        332005,
+        332006,
+        332006,
+        332024,
+        332025,
+        332025,
+        332036,
+        332045,
+        332045,
+        333020,
+        333020
+      ],
+      "characterCount": 3,
+      "cardCount": 30
+    }
+  ],
+  "wins": [
+    34,
+    66
+  ],
+  "games": [
+    {
+      "game": 1300,
+      "seed": 711300,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 7,
+      "technicalError": null,
+      "durationMs": 2483.8771000000006,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 33,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 5,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1301,
+      "seed": 711301,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 1,
+      "technicalError": null,
+      "durationMs": 2926.8037000000004,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 52,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 21,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 7,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1302,
+      "seed": 711302,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 6,
+      "technicalError": null,
+      "durationMs": 2343.8833999999997,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 12,
+            "switchActive": 1,
+            "playCard": 9,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 56,
+          "actions": {
+            "useSkill": 15,
+            "playCard": 16,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1303,
+      "seed": 711303,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 8,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1955.175299999999,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 45,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 14,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 8,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1304,
+      "seed": 711304,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 3,
+      "technicalError": null,
+      "durationMs": 2440.232400000001,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 9,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 50,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 18,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1305,
+      "seed": 711305,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2140.083999999999,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 46,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 7,
+            "switchActive": 1,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1306,
+      "seed": 711306,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 2,
+      "technicalError": null,
+      "durationMs": 1568.8019000000004,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 8,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 11,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1307,
+      "seed": 711307,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 2,
+      "technicalError": null,
+      "durationMs": 2316.567299999999,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 15,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 11,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1308,
+      "seed": 711308,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 1,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1853.0541000000012,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 12,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1309,
+      "seed": 711309,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 3,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2137.4274000000005,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 47,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 18,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 5,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1310,
+      "seed": 711310,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 2111.526999999998,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 9,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 50,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 21,
+            "elementalTuning": 1,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1311,
+      "seed": 711311,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 4,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2137.7030000000013,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 46,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 16,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 9,
+            "declareEnd": 5,
+            "elementalTuning": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1312,
+      "seed": 711312,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 8,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1459.3634999999995,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 7,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 13,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1313,
+      "seed": 711313,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2251.4339,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 48,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 18,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 8,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1314,
+      "seed": 711314,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 8,
+      "technicalError": null,
+      "durationMs": 1593.0334000000003,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 30,
+          "actions": {
+            "useSkill": 11,
+            "switchActive": 1,
+            "playCard": 3,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 13,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1315,
+      "seed": 711315,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 1,
+      "technicalError": null,
+      "durationMs": 2286.650099999999,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 48,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 16,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 8,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1316,
+      "seed": 711316,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 13,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1606.9400000000023,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 8,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 12,
+            "elementalTuning": 3,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1317,
+      "seed": 711317,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 7,
+      "hpSeat0": 0,
+      "hpSeat1": 2,
+      "technicalError": null,
+      "durationMs": 2393.0011000000013,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 60,
+          "actions": {
+            "useSkill": 15,
+            "playCard": 21,
+            "declareEnd": 6,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 8,
+            "declareEnd": 6,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1318,
+      "seed": 711318,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 6,
+      "technicalError": null,
+      "durationMs": 1623.9470000000001,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 26,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 2,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 10,
+            "switchActive": 1,
+            "playCard": 9,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1319,
+      "seed": 711319,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 4,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2435.8445999999967,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 49,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 17,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 9,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1320,
+      "seed": 711320,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 1,
+      "technicalError": null,
+      "durationMs": 2242.343399999998,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 11,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1321,
+      "seed": 711321,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 13,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1512.9712,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 30,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 7,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 27,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 4,
+            "declareEnd": 4,
+            "switchActive": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1322,
+      "seed": 711322,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 5,
+      "technicalError": null,
+      "durationMs": 2267.726300000002,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 12,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1323,
+      "seed": 711323,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1679.4923999999955,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 12,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 33,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 7,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1324,
+      "seed": 711324,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 2,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2319.7983999999997,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 10,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 13,
+            "declareEnd": 5,
+            "elementalTuning": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1325,
+      "seed": 711325,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 3,
+      "hpSeat0": 0,
+      "hpSeat1": 12,
+      "technicalError": null,
+      "durationMs": 1674.1430000000037,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 25,
+          "actions": {
+            "useSkill": 7,
+            "playCard": 8,
+            "declareEnd": 3
+          }
+        },
+        {
+          "decisions": 26,
+          "actions": {
+            "useSkill": 7,
+            "playCard": 8,
+            "declareEnd": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1326,
+      "seed": 711326,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 10,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2178.9003999999986,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 10,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 11,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1327,
+      "seed": 711327,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 5,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2561.3335000000006,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 12,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 12,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1328,
+      "seed": 711328,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 5,
+      "technicalError": null,
+      "durationMs": 2231.6526000000013,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 10,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 11,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1329,
+      "seed": 711329,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2464.3664999999964,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 13,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 8,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1330,
+      "seed": 711330,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 5,
+      "technicalError": null,
+      "durationMs": 2697.797399999996,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 47,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 13,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 54,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 19,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1331,
+      "seed": 711331,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 5,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2107.706600000005,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 16,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 10,
+            "declareEnd": 4,
+            "elementalTuning": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1332,
+      "seed": 711332,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 1,
+      "technicalError": null,
+      "durationMs": 2052.157600000006,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 9,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 12,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1333,
+      "seed": 711333,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 4,
+      "hpSeat0": 12,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1676.9744000000064,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 13,
+            "declareEnd": 3
+          }
+        },
+        {
+          "decisions": 29,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 7,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1334,
+      "seed": 711334,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 8,
+      "technicalError": null,
+      "durationMs": 1990.8300000000017,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 12,
+            "switchActive": 1,
+            "playCard": 7,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 11,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1335,
+      "seed": 711335,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 2,
+      "technicalError": null,
+      "durationMs": 2145.348499999993,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 17,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 10,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1336,
+      "seed": 711336,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 3,
+      "technicalError": null,
+      "durationMs": 2134.2464000000036,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 12,
+            "declareEnd": 4,
+            "switchActive": 1,
+            "elementalTuning": 3
+          }
+        },
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 12,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1337,
+      "seed": 711337,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 7,
+      "technicalError": null,
+      "durationMs": 1659.159599999999,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 12,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 33,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 8,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1338,
+      "seed": 711338,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 3,
+      "technicalError": null,
+      "durationMs": 2281.3024000000005,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 9,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 56,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 22,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1339,
+      "seed": 711339,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 1,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2172.0697999999975,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 47,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 14,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 7,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1340,
+      "seed": 711340,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 2,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1467.340200000006,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 8,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 10,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1341,
+      "seed": 711341,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 3,
+      "technicalError": null,
+      "durationMs": 1817.1713000000018,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 12,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 45,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 13,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1342,
+      "seed": 711342,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1556.0081999999966,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 33,
+          "actions": {
+            "useSkill": 8,
+            "playCard": 11,
+            "declareEnd": 3,
+            "switchActive": 1
+          }
+        },
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 10,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1343,
+      "seed": 711343,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 1,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1785.143299999996,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 48,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 16,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 10,
+            "declareEnd": 5,
+            "elementalTuning": 2,
+            "switchActive": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1344,
+      "seed": 711344,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 4,
+      "hpSeat0": 0,
+      "hpSeat1": 2,
+      "technicalError": null,
+      "durationMs": 1456.2356,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 7,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 9,
+            "declareEnd": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1345,
+      "seed": 711345,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 6,
+      "technicalError": null,
+      "durationMs": 1753.0037999999913,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 12,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 9,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1346,
+      "seed": 711346,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 3,
+      "hpSeat0": 9,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1211.3456999999908,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 28,
+          "actions": {
+            "useSkill": 7,
+            "playCard": 9,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 8,
+            "playCard": 11,
+            "declareEnd": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1347,
+      "seed": 711347,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 11,
+      "technicalError": null,
+      "durationMs": 2039.500199999995,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 47,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 13,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1348,
+      "seed": 711348,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 3,
+      "technicalError": null,
+      "durationMs": 2097.0475000000006,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 15,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1349,
+      "seed": 711349,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 7,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1556.8647000000055,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 9,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1350,
+      "seed": 711350,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 6,
+      "technicalError": null,
+      "durationMs": 1996.0130999999965,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 33,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 4,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 49,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 17,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1351,
+      "seed": 711351,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 10,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1615.368300000002,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 15,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 11,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1352,
+      "seed": 711352,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 4,
+      "hpSeat0": 0,
+      "hpSeat1": 9,
+      "technicalError": null,
+      "durationMs": 1255.343200000003,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 29,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 6,
+            "declareEnd": 3,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 10,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1353,
+      "seed": 711353,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 7,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1399.1100000000006,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 33,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 8,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1354,
+      "seed": 711354,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 3,
+      "technicalError": null,
+      "durationMs": 1510.0660000000062,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 7,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 10,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1355,
+      "seed": 711355,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 7,
+      "hpSeat0": 5,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2097.9209999999875,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 51,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 19,
+            "declareEnd": 6
+          }
+        },
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 7,
+            "switchActive": 1,
+            "declareEnd": 6
+          }
+        }
+      ]
+    },
+    {
+      "game": 1356,
+      "seed": 711356,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 4,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1564.5227000000014,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 7,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 10,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1357,
+      "seed": 711357,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 0,
+      "hpSeat1": 5,
+      "technicalError": null,
+      "durationMs": 1622.6083999999973,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 11,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1358,
+      "seed": 711358,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 8,
+      "technicalError": null,
+      "durationMs": 1660.8162999999913,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 6,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 46,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1359,
+      "seed": 711359,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 2,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1822.3261000000057,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 15,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 5,
+            "declareEnd": 4,
+            "elementalTuning": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1360,
+      "seed": 711360,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 3,
+      "hpSeat0": 14,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1127.4235999999946,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 29,
+          "actions": {
+            "useSkill": 7,
+            "playCard": 11,
+            "declareEnd": 3
+          }
+        },
+        {
+          "decisions": 26,
+          "actions": {
+            "useSkill": 7,
+            "playCard": 8,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1361,
+      "seed": 711361,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 4,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2134.575800000006,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 45,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 18,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 5,
+            "declareEnd": 4,
+            "switchActive": 1,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1362,
+      "seed": 711362,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 2121.5441999999894,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 11,
+            "declareEnd": 5,
+            "elementalTuning": 3
+          }
+        },
+        {
+          "decisions": 45,
+          "actions": {
+            "useSkill": 15,
+            "playCard": 13,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1363,
+      "seed": 711363,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 8,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2029.3698000000004,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 49,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 17,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 10,
+            "switchActive": 1,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1364,
+      "seed": 711364,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 2,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1750.2026000000042,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 51,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 10,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1365,
+      "seed": 711365,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 7,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2072.7163,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 47,
+          "actions": {
+            "useSkill": 15,
+            "playCard": 16,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 11,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1366,
+      "seed": 711366,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 2892.281899999987,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 11,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 50,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 19,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1367,
+      "seed": 711367,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 2145.173300000024,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 46,
+          "actions": {
+            "useSkill": 15,
+            "playCard": 13,
+            "declareEnd": 5
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 7,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1368,
+      "seed": 711368,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 1713.5511000000115,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 6,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 45,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1369,
+      "seed": 711369,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1707.7550999999803,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 11,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 11,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1370,
+      "seed": 711370,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1705.8199999999779,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 8,
+            "playCard": 10,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1371,
+      "seed": 711371,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 0,
+      "hpSeat1": 10,
+      "technicalError": null,
+      "durationMs": 1459.3819000000076,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 29,
+          "actions": {
+            "useSkill": 8,
+            "playCard": 8,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 11,
+            "declareEnd": 3,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1372,
+      "seed": 711372,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 1936.396000000008,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 11,
+            "declareEnd": 5,
+            "switchActive": 1,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 10,
+            "declareEnd": 5,
+            "elementalTuning": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1373,
+      "seed": 711373,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 8,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1653.7185999999929,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 12,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 7,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1374,
+      "seed": 711374,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 1756.5727999999945,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 7,
+            "declareEnd": 5,
+            "elementalTuning": 3
+          }
+        },
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 11,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1375,
+      "seed": 711375,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 4,
+      "hpSeat0": 7,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1559.7466000000131,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 10,
+            "declareEnd": 3,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 12,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1376,
+      "seed": 711376,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 1,
+      "technicalError": null,
+      "durationMs": 1713.1992999999784,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 7,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 14,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1377,
+      "seed": 711377,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 0,
+      "hpSeat1": 11,
+      "technicalError": null,
+      "durationMs": 1439.093899999978,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 26,
+          "actions": {
+            "useSkill": 7,
+            "playCard": 8,
+            "declareEnd": 3
+          }
+        },
+        {
+          "decisions": 30,
+          "actions": {
+            "useSkill": 8,
+            "playCard": 9,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1378,
+      "seed": 711378,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 6,
+      "technicalError": null,
+      "durationMs": 2398.871199999994,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 10,
+            "switchActive": 1,
+            "playCard": 7,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 52,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 21,
+            "declareEnd": 4,
+            "switchActive": 1,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1379,
+      "seed": 711379,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 0,
+      "hpSeat1": 11,
+      "technicalError": null,
+      "durationMs": 1537.880300000019,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 8,
+            "playCard": 11,
+            "declareEnd": 3
+          }
+        },
+        {
+          "decisions": 33,
+          "actions": {
+            "useSkill": 8,
+            "playCard": 12,
+            "declareEnd": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1380,
+      "seed": 711380,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 4,
+      "hpSeat0": 12,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1221.5823000000091,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 27,
+          "actions": {
+            "useSkill": 7,
+            "playCard": 7,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 28,
+          "actions": {
+            "useSkill": 6,
+            "playCard": 10,
+            "declareEnd": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1381,
+      "seed": 711381,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 5,
+      "technicalError": null,
+      "durationMs": 1684.8833999999915,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 12,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 10,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1382,
+      "seed": 711382,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 4,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1566.0666999999958,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 5,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 42,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 12,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        }
+      ]
+    },
+    {
+      "game": 1383,
+      "seed": 711383,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 0,
+      "hpSeat1": 2,
+      "technicalError": null,
+      "durationMs": 1813.1807000000263,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 46,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 38,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 8,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1384,
+      "seed": 711384,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 6,
+      "hpSeat0": 5,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1835.1539999999804,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 47,
+          "actions": {
+            "useSkill": 14,
+            "playCard": 12,
+            "declareEnd": 5,
+            "elementalTuning": 4
+          }
+        },
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 14,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1385,
+      "seed": 711385,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 6,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1676.798999999999,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 11,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 6,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1386,
+      "seed": 711386,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 4,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1763.132500000007,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 9,
+            "elementalTuning": 2,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1387,
+      "seed": 711387,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 1,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1956.8721000000078,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 48,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 18,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 7,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1388,
+      "seed": 711388,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 4,
+      "hpSeat0": 0,
+      "hpSeat1": 9,
+      "technicalError": null,
+      "durationMs": 1520.973800000007,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 34,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 9,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 10,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1389,
+      "seed": 711389,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 4,
+      "hpSeat0": 14,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1273.3253999999724,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 32,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 9,
+            "declareEnd": 3,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 31,
+          "actions": {
+            "useSkill": 9,
+            "playCard": 9,
+            "declareEnd": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1390,
+      "seed": 711390,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 13,
+      "technicalError": null,
+      "durationMs": 1549.630600000004,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 29,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 5,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 15,
+            "switchActive": 1,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1391,
+      "seed": 711391,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 3,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1714.1907000000065,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 11,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 10,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1392,
+      "seed": 711392,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 1480.136999999988,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 30,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 6,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 10,
+            "declareEnd": 4,
+            "elementalTuning": 3
+          }
+        }
+      ]
+    },
+    {
+      "game": 1393,
+      "seed": 711393,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 2,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1697.6609000000171,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 47,
+          "actions": {
+            "useSkill": 15,
+            "playCard": 14,
+            "declareEnd": 5,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 5,
+            "declareEnd": 6,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1394,
+      "seed": 711394,
+      "seatSwap": false,
+      "winnerSeat": 0,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 7,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1924.0391999999993,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 9,
+            "declareEnd": 4,
+            "elementalTuning": 1,
+            "switchActive": 1
+          }
+        },
+        {
+          "decisions": 44,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 15,
+            "declareEnd": 4
+          }
+        }
+      ]
+    },
+    {
+      "game": 1395,
+      "seed": 711395,
+      "seatSwap": true,
+      "winnerSeat": 1,
+      "winnerDeck": 0,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 2,
+      "technicalError": null,
+      "durationMs": 1689.3366999999853,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 14,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 8,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1396,
+      "seed": 711396,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 4,
+      "technicalError": null,
+      "durationMs": 1629.5146999999997,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 35,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 6,
+            "declareEnd": 4,
+            "elementalTuning": 2
+          }
+        },
+        {
+          "decisions": 40,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 14,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1397,
+      "seed": 711397,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 6,
+      "hpSeat0": 4,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1821.8194000000076,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 43,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 15,
+            "declareEnd": 5,
+            "elementalTuning": 1
+          }
+        },
+        {
+          "decisions": 39,
+          "actions": {
+            "useSkill": 12,
+            "playCard": 11,
+            "declareEnd": 5
+          }
+        }
+      ]
+    },
+    {
+      "game": 1398,
+      "seed": 711398,
+      "seatSwap": false,
+      "winnerSeat": 1,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 0,
+      "hpSeat1": 1,
+      "technicalError": null,
+      "durationMs": 2021.9781000000075,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 41,
+          "actions": {
+            "useSkill": 13,
+            "playCard": 8,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 45,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 18,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    },
+    {
+      "game": 1399,
+      "seed": 711399,
+      "seatSwap": true,
+      "winnerSeat": 0,
+      "winnerDeck": 1,
+      "round": 5,
+      "hpSeat0": 2,
+      "hpSeat1": 0,
+      "technicalError": null,
+      "durationMs": 1877.1180999999924,
+      "policy": "greedy",
+      "terminalPhase": "gameEnd",
+      "playerMetrics": [
+        {
+          "decisions": 37,
+          "actions": {
+            "useSkill": 11,
+            "playCard": 14,
+            "declareEnd": 4
+          }
+        },
+        {
+          "decisions": 36,
+          "actions": {
+            "useSkill": 10,
+            "playCard": 9,
+            "declareEnd": 4,
+            "elementalTuning": 1
+          }
+        }
+      ]
+    }
+  ]
+}

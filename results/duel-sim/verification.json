@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "sample": "main",
+      "attempts": 2000,
+      "starts": [
+        1000,
+        1000
+      ],
+      "wins": [
+        576,
+        1424
+      ],
+      "seatWins": [
+        1028,
+        972
+      ],
+      "errors": 0,
+      "draws": 0,
+      "allChecksPassed": true
+    },
+    {
+      "sample": "sensitivity",
+      "attempts": 400,
+      "starts": [
+        200,
+        200
+      ],
+      "wins": [
+        148,
+        252
+      ],
+      "seatWins": [
+        200,
+        200
+      ],
+      "errors": 0,
+      "draws": 0,
+      "allChecksPassed": true
+    }
+  ]
+}

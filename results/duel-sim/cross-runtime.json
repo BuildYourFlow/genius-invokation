@@ -1,0 +1,10 @@
+{
+  "equal": true,
+  "local": "v24.20.0",
+  "github": "v26.8.2",
+  "run": 34684316772,
+  "games": 20,
+  "excludedFields": [
+    "durationMs"
+  ]
+}

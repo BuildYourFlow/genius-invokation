@@ -1,0 +1,14 @@
+{
+  "seed": "duel-blind-20260912",
+  "algorithm": "SHA256 first byte modulo 2",
+  "A": {
+    "deck": 1,
+    "label": "Kirara / Keqing / Jadeplume Terrorshroom"
+  },
+  "B": {
+    "deck": 0,
+    "label": "Venti / Hydro Tulpa / Black Serpent Knight: Windcutter"
+  },
+  "revealedAfterVerdict": true,
+  "createdAt": "2026-09-12T09:00:28.929Z"
+}

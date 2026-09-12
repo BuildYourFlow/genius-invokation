@@ -1,0 +1,35 @@
+{
+  "verdict": "A",
+  "sensitivityVerdict": "A",
+  "rule": "Primary Wilson 95% excludes 50%; opposite clear sensitivity winner means policy-dependent. Incomplete/errorful primary means inconclusive.",
+  "scope": "Only the supplied fixed-policy head-to-head experiment. No claim of optimal play or general ladder superiority.",
+  "primaryA": {
+    "wins": 1424,
+    "n": 2000,
+    "winrate": 0.712,
+    "wilson95": [
+      0.6917626197955953,
+      0.7314245521571534
+    ],
+    "first": {
+      "wins": 726,
+      "n": 1000,
+      "winrate": 0.726,
+      "wilson95": [
+        0.697531129939966,
+        0.7527391752245631
+      ]
+    },
+    "second": {
+      "wins": 698,
+      "n": 1000,
+      "winrate": 0.698,
+      "wilson95": [
+        0.6688303415169653,
+        0.7256542621227547
+      ]
+    },
+    "firstMinusSecond": 0.028000000000000025
+  },
+  "createdAt": "2026-09-12T09:00:28.920Z"
+}

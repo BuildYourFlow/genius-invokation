@@ -1,0 +1,6 @@
+{
+  "reason": "Initial pile shuffle not controlled by randomSeed; entire interrupted series excluded",
+  "completedRows": 1307,
+  "technicalErrors": 0,
+  "includedInFinalStatistics": false
+}
