@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const dir='results/duel-sim';
+const [a,b]=await Promise.all(['smoke-greedy','replay-greedy'].map(async name=>JSON.parse(await fs.readFile(`${dir}/${name}.json`,'utf8'))));
+assert.equal(a.completedValidGames,20); assert.equal(a.technicalErrors,0);
+assert.equal(b.completedValidGames,20); assert.equal(b.technicalErrors,0);
+const normalize=r=>r.games.map(({durationMs,...row})=>row);
+assert.deepEqual(normalize(a),normalize(b));
+assert.deepEqual(a.hashes,b.hashes);
+await fs.writeFile(`${dir}/reproducibility.json`,JSON.stringify({games:20,matched:true,excludedFields:['durationMs'],fields:'all raw row fields except durationMs',hashes:b.hashes},null,2));
+console.log('Exact replay verified: 20/20');

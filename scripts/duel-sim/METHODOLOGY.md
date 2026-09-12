@@ -17,6 +17,16 @@ legend-card initial placement still applies. Engine randomSeed governs play.
 The runner sets unexpectedInsufficientDice:'throw' so no dice-consumption error
 can be silently skipped. Exact smoke replay must pass before replacement launch.
 
+## Additional strength probe (before probe outcomes)
+
+Two held-out 100-attempt mirror-deck comparisons, one for each deck, use
+seeds 910000–910199 and alternate which policy starts. Both players receive
+the same deck composition. Compare resource against greedy with no tuning.
+Call resource stronger on this probe only if its pooled Wilson 95% lower
+bound exceeds .5 and neither individual deck's point estimate is below .5.
+Otherwise describe it only as the alternative-policy sensitivity sample.
+This does not change the primary verdict rule or primary/sensitivity sample sizes.
+
 Engine: repository core 0.20.8, data v7.0.0. This is the open-source rules
 implementation, not the proprietary official client. Exact share codes and
 decoded cards are retained in every result. Never replace matches with a model.

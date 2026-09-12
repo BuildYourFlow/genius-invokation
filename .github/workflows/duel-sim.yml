@@ -42,11 +42,19 @@ jobs:
         run: node scripts/duel-sim/run.mjs
       - name: Validate common policies
         run: |
+          node --test scripts/duel-sim/policy.test.mjs
           POLICY=greedy EXPERIMENT=smoke-greedy node scripts/duel-sim/run.mjs
           POLICY=resource EXPERIMENT=smoke-resource node scripts/duel-sim/run.mjs
+          POLICY=greedy EXPERIMENT=replay-greedy node scripts/duel-sim/run.mjs
+          node scripts/duel-sim/verify-replay.mjs
       - name: Full preregistered campaign
         if: github.event_name == 'workflow_dispatch' && inputs.full_campaign
-        run: node scripts/duel-sim/campaign.mjs
+        run: |
+          node scripts/duel-sim/campaign.mjs
+          node scripts/duel-sim/benchmark-policy.mjs 0
+          node scripts/duel-sim/benchmark-policy.mjs 1
+          node scripts/duel-sim/analyze.mjs
+          node scripts/duel-sim/verify-results.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
