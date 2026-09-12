@@ -66,7 +66,7 @@ function genericActionScore(action, index) {
   return kindBase + previewScore(action) + fastBonus - 0.15 * cost + effectlessPenalty - index * 1e-6;
 }
 
-function makePlayerIO() {
+function makePlayerIO(who) {
   let latestState = null;
   return {
     notify(notification) {
@@ -81,7 +81,7 @@ function makePlayerIO() {
         case "chooseActive":
           return createRpcResponse("chooseActive", { activeCharacterId: req.value.candidateIds[0] });
         case "rerollDice": {
-          const dice = latestState?.player?.[0]?.dice ?? [];
+          const dice = latestState?.player?.[who]?.dice ?? [];
           return createRpcResponse("rerollDice", { diceToReroll: [...dice] });
         }
         case "selectCard":
@@ -126,8 +126,8 @@ for (let i = 0; i < GAMES; i++) {
     randomSeed: seed,
   });
   const game = new Game(state, { errorLevel: "strict" });
-  game.players[0].io = makePlayerIO();
-  game.players[1].io = makePlayerIO();
+  game.players[0].io = makePlayerIO(0);
+  game.players[1].io = makePlayerIO(1);
   let ioError = null;
   game.onIoError = (e) => {
     ioError = { message: e.message, who: e.who };
