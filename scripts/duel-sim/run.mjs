@@ -1,8 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import dataFactory from "@gi-tcg/data";
-import { Game, CORE_VERSION, createRpcResponse } from "@gi-tcg/core";
-import { staticDecode } from "@gi-tcg/assets-manager";
+import dataFactory from "../../packages/data/dist/index.js";
+import { Game, CORE_VERSION, createRpcResponse } from "../../packages/core/dist/index.js";
+import { staticDecode } from "../../packages/assets-manager/dist/index.js";
 
 const VERSION = "v7.0.0";
 const DECK_CODES = [
@@ -32,7 +32,6 @@ function previewScore(action) {
     if (!m) continue;
     if (m.$case === "damage") {
       const d = m.value;
-      // Previewed outgoing damage is the strongest generic signal available.
       score += Number(d.value ?? 0) * 5;
       if (d.causeDefeated) score += 20;
       if (Number(d.reactionType ?? 0) !== 0) score += 3;
@@ -64,7 +63,6 @@ function genericActionScore(action, index) {
   const cost = (action.autoSelectedDice ?? []).length;
   const fastBonus = action.isFast ? 2 : 0;
   const effectlessPenalty = kind === "playCard" && action.action?.value?.willBeEffectless ? -50 : 0;
-  // Tiny deterministic index penalty gives stable tie-breaking without deck-name knowledge.
   return kindBase + previewScore(action) + fastBonus - 0.15 * cost + effectlessPenalty - index * 1e-6;
 }
 
@@ -79,13 +77,11 @@ function makePlayerIO() {
       if (!req) throw new Error("RPC request missing oneof payload");
       switch (req.$case) {
         case "switchHands":
-          // Deliberately neutral smoke policy: keep opening hand.
           return createRpcResponse("switchHands", { removedHandIds: [] });
         case "chooseActive":
           return createRpcResponse("chooseActive", { activeCharacterId: req.value.candidateIds[0] });
         case "rerollDice": {
           const dice = latestState?.player?.[0]?.dice ?? [];
-          // During smoke testing, reroll every die. The main policy will improve this after IO validation.
           return createRpcResponse("rerollDice", { diceToReroll: [...dice] });
         }
         case "selectCard":
