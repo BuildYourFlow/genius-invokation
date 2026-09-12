@@ -28,7 +28,7 @@ jobs:
           pnpm --filter @gi-tcg/gts-runtime build
           pnpm --filter @gi-tcg/core build
           pnpm --filter @gi-tcg/data build
-          pnpm --filter @gi-tcg/assets-manager build:ts
+          pnpm --filter @gi-tcg/assets-manager build
       - name: Run 20-game real-engine smoke test
         env:
           GAMES: '20'
