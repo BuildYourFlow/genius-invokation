@@ -24,6 +24,21 @@ const outDir = path.resolve("results/duel-sim");
 await fs.mkdir(outDir, { recursive: true });
 
 const decks = DECK_CODES.map(staticDecode);
+// The engine's initial shuffle uses Math.random outside its seeded iterator.
+// Supply uniformly shuffled piles through supported noShuffle instead.
+function seededDeck(deck, seed, seat) {
+  const cards = [...deck.cards];
+  let counter = 0;
+  for (let i = cards.length - 1; i > 0; i--) {
+    const bound = i + 1;
+    const limit = Math.floor(0x100000000 / bound) * bound;
+    let x;
+    do { x = createHash('sha256').update(`duel-pile:${seed}:${seat}:${counter++}`).digest().readUInt32LE(0); } while (x >= limit);
+    const j = x % bound;
+    [cards[i], cards[j]] = [cards[j], cards[i]];
+  }
+  return { ...deck, cards, noShuffle: true };
+}
 for (const [i, deck] of decks.entries()) {
   if (deck.characters.length !== 3 || deck.cards.length !== 30) {
     throw new Error(`Deck ${i + 1} decoded to ${deck.characters.length} characters / ${deck.cards.length} cards`);
@@ -136,10 +151,11 @@ for (let i = 0; i < GAMES; i++) {
   const seed = BASE_SEED + OFFSET + i;
   const started = performance.now();
   const state = Game.createInitialState({
-    decks: seatDecks,
+    decks: seatDecks.map((deck, seat) => seededDeck(deck, seed, seat)),
     data: gameData,
     versionBehavior: VERSION,
     randomSeed: seed,
+    unexpectedInsufficientDice: 'throw',
   });
   const game = new Game(state, { errorLevel: "strict" });
   game.players[0].io = POLICY === 'legacy' ? makePlayerIO(0) : makePolicy(0, createRpcResponse, elements, POLICY);

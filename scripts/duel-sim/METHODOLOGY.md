@@ -2,6 +2,21 @@
 
 Frozen before main sample execution, 2026-09-12.
 
+## Reproducibility amendment (before replacement campaign)
+
+The first attempted campaign was interrupted and excluded in full because a
+20-game replay found that initial deck shuffling used unseeded Math.random in
+core's initPlayerState, outside randomSeed. Preserve all complete and partial
+rows under excluded-unseeded; do not treat those as technical forfeits or use
+their wins in the verdict. No policy coefficients changed after this finding.
+The replacement campaign retains the original planned seeds, sample sizes and
+alternation. Its runner supplies a Fisher–Yates shuffle using SHA256-derived
+32-bit integers with rejection sampling for an unbiased bounded integer, domain
+duel-pile:seed:seat:counter, and passes noShuffle:true to the engine. Engine
+legend-card initial placement still applies. Engine randomSeed governs play.
+The runner sets unexpectedInsufficientDice:'throw' so no dice-consumption error
+can be silently skipped. Exact smoke replay must pass before replacement launch.
+
 Engine: repository core 0.20.8, data v7.0.0. This is the open-source rules
 implementation, not the proprietary official client. Exact share codes and
 decoded cards are retained in every result. Never replace matches with a model.
