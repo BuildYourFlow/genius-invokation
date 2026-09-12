@@ -23,6 +23,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Build engine packages
         run: |
+          pnpm --filter @gi-tcg/config build
           pnpm --filter @gi-tcg/typings build
           pnpm --filter @gi-tcg/utils build
           pnpm --filter @gi-tcg/gts-runtime build
