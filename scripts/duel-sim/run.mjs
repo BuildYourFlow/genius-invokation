@@ -1,5 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { createHash } from "node:crypto";
+import { performance } from "node:perf_hooks";
+import { makePolicy } from "./policy.mjs";
 import dataFactory from "../../packages/data/dist/index.js";
 import { Game, CORE_VERSION, createRpcResponse } from "../../packages/core/dist/index.js";
 import { staticDecode } from "../../packages/assets-manager/dist/index.js";
@@ -11,6 +14,12 @@ const DECK_CODES = [
 ];
 const GAMES = Number(process.env.GAMES ?? 20);
 const BASE_SEED = Number(process.env.BASE_SEED ?? 700012);
+const POLICY = process.env.POLICY ?? 'legacy';
+const EXPERIMENT = process.env.EXPERIMENT ?? 'smoke';
+const OFFSET = Number(process.env.OFFSET ?? 0);
+if (!Number.isSafeInteger(GAMES) || GAMES <= 0 || GAMES % 2) throw Error('GAMES must be positive and even');
+if (!['legacy','greedy','resource'].includes(POLICY)) throw Error('Unknown policy');
+if (!/^[a-z0-9-]+$/.test(EXPERIMENT)) throw Error('Invalid experiment name');
 const outDir = path.resolve("results/duel-sim");
 await fs.mkdir(outDir, { recursive: true });
 
@@ -112,13 +121,20 @@ function makePlayerIO(who) {
 }
 
 const gameData = dataFactory(VERSION);
+if (CORE_VERSION !== '0.20.8') throw Error('Unexpected core version');
+const elementNames = ['cryo','hydro','pyro','electro','anemo','geo','dendro'];
+const elements = new Map([...gameData.characters].map(([id,c]) => [id, elementNames.findIndex(e=>c.tags.includes(e))+1]));
+const hashes = Object.fromEntries(await Promise.all(['run.mjs','policy.mjs'].map(async file => [file, createHash('sha256').update(await fs.readFile(new URL(file, import.meta.url))).digest('hex')])));
+const rawPath = path.join(outDir, `${EXPERIMENT}.jsonl`);
+await fs.writeFile(rawPath, '');
 const results = [];
 let technicalErrors = 0;
 
 for (let i = 0; i < GAMES; i++) {
-  const seatSwap = i % 2 === 1;
+  const seatSwap = (OFFSET + i) % 2 === 1;
   const seatDecks = seatSwap ? [decks[1], decks[0]] : [decks[0], decks[1]];
-  const seed = BASE_SEED + i;
+  const seed = BASE_SEED + OFFSET + i;
+  const started = performance.now();
   const state = Game.createInitialState({
     decks: seatDecks,
     data: gameData,
@@ -126,8 +142,8 @@ for (let i = 0; i < GAMES; i++) {
     randomSeed: seed,
   });
   const game = new Game(state, { errorLevel: "strict" });
-  game.players[0].io = makePlayerIO(0);
-  game.players[1].io = makePlayerIO(1);
+  game.players[0].io = POLICY === 'legacy' ? makePlayerIO(0) : makePolicy(0, createRpcResponse, elements, POLICY);
+  game.players[1].io = POLICY === 'legacy' ? makePlayerIO(1) : makePolicy(1, createRpcResponse, elements, POLICY);
   let ioError = null;
   game.onIoError = (e) => {
     ioError = { message: e.message, who: e.who };
@@ -135,7 +151,7 @@ for (let i = 0; i < GAMES; i++) {
   try {
     const winnerSeat = await game.start();
     if (ioError) technicalErrors++;
-    const winnerDeck = winnerSeat === null ? null : (seatSwap ? 1 - winnerSeat : winnerSeat);
+    const winnerDeck = ioError || winnerSeat === null ? null : (seatSwap ? 1 - winnerSeat : winnerSeat);
     results.push({
       game: i,
       seed,
@@ -161,12 +177,24 @@ for (let i = 0; i < GAMES; i++) {
       technicalError: { message: e instanceof Error ? e.stack ?? e.message : String(e) },
     });
   }
+  const row = results.at(-1);
+  row.game = OFFSET + i;
+  row.durationMs = performance.now() - started;
+  row.policy = POLICY;
+  row.terminalPhase = game.state.phase;
+  row.playerMetrics = game.players.map(p => p.io.metrics?.() ?? null);
+  await fs.appendFile(rawPath, JSON.stringify(row) + '\n');
   if ((i + 1) % 5 === 0) console.log(`completed ${i + 1}/${GAMES}`);
 }
 
 const valid = results.filter((r) => !r.technicalError && r.winnerDeck !== null);
 const summary = {
-  experiment: "smoke",
+  experiment: EXPERIMENT,
+  policy: POLICY,
+  hashes,
+  nodeVersion: process.version,
+  baseSeed: BASE_SEED,
+  offset: OFFSET,
   version: VERSION,
   coreVersion: CORE_VERSION,
   requestedGames: GAMES,
@@ -183,7 +211,7 @@ const summary = {
   wins: [0, 1].map((d) => valid.filter((r) => r.winnerDeck === d).length),
   games: results,
 };
-await fs.writeFile(path.join(outDir, "smoke.json"), JSON.stringify(summary, null, 2));
+await fs.writeFile(path.join(outDir, `${EXPERIMENT}.json`), JSON.stringify(summary, null, 2));
 console.log(JSON.stringify({
   version: summary.version,
   coreVersion: summary.coreVersion,

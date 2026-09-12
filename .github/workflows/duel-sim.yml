@@ -6,6 +6,11 @@ on:
       - 'scripts/duel-sim/**'
       - '.github/workflows/duel-sim.yml'
   workflow_dispatch:
+    inputs:
+      full_campaign:
+        description: 'Run preregistered 2000 + 400 real games after smoke gates'
+        type: boolean
+        default: false
 
 jobs:
   smoke-and-simulate:
@@ -35,6 +40,13 @@ jobs:
           GAMES: '20'
           BASE_SEED: '700012'
         run: node scripts/duel-sim/run.mjs
+      - name: Validate common policies
+        run: |
+          POLICY=greedy EXPERIMENT=smoke-greedy node scripts/duel-sim/run.mjs
+          POLICY=resource EXPERIMENT=smoke-resource node scripts/duel-sim/run.mjs
+      - name: Full preregistered campaign
+        if: github.event_name == 'workflow_dispatch' && inputs.full_campaign
+        run: node scripts/duel-sim/campaign.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
